@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Calculator</title>
+</head>
+<body>
+  <div class="container">
+
+  <div class="calculator-container">
+    <div class="display">
+      <div class="display-comp"></div>
+      <div class="result">0</div>
+    </div>
+    <div class="keys">
+      <div class="row">
+        <button  data-action="clear-one">C</button>
+        <button  data-action="clear-everything">CE</button>
+        <button  data-action="percent">%</button>
+        <button class="action" data-action="divide" value="/">÷</button>
+      </div>
+      <div class="row">
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button class="action" data-action="multiply" value="*">x</button>
+      </div>
+      <div class="row">
+        <button >4</button>
+        <button >5</button>
+        <button >6</button>
+        <button class="action" data-action="minus" value="-">-</button>
+      </div>
+      <div class="row">
+        <button >1</button>
+        <button >2</button>
+        <button >3</button>
+        <button class="action" data-action="add" value="+">+</button>
+      </div>
+      <div class="row">
+        <button  data-action="point" value=".">.</button>
+        <button >0</button>
+        <button class="empty"></button>
+        <button class="action" data-action="equality">=</button>
+      </div> 
+    </div>
+  </div>
+  <div class="copyright">&copy; Copyright. A simple Calculator by Emeka Joseph</div>
+  <div class="note">Note: this app can only work with one operator at a time</div>
+</div>
+  <script src="./js/script.js"></script>
+</body>
+</html>
