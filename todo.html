@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/todo.css">
+  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
+  <title>Todo App</title>
+</head>
+<body>
+  <div class="container">
+      <h1 class="app-header">A Simple Todo App</h1>
+    <form class="form-group todo-name-in">
+        <p class="err error"></p>
+      <div class="form-control">
+        <input type="text" placeholder="Todo list Name" name="todo_name" >
+        <button class="btn btn-todo-name" type="submit">create</button>
+      </div>
+    </form>
+    <form  class="form-group todo-list-in">
+      <p class="err error-list"></p>
+      <div class="form-control">
+        <input type="text" placeholder="todo name" name="todo_list" >
+        <button class="btn btn-todo-list" type="submit">+ add to list</button>
+      </div>
+    </form>
+    <div class="output">
+      <div class="todo-name-out"></div>
+      <div class="no_item"></div>
+      <ul class="todo-list-out"></ul>
+    </div>
+  </div>
+  <div class="footer">
+    <p>&copy; Copyright 2019 A Simple Todo App By Emeka Joseph</p>
+  </div>
+  <script src="./js/todo.js"></script>
+</body>
+</html>
