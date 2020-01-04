@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/budget.css">
+  <title>Budget App</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="heading">A simple budget app</h1>
+    <div class="budget-container">
+      <div class="budget">
+        <form class="budget-form-group" class="hidden">
+          <div class="budget-error"></div>
+          <div class="budget-form">
+            <label for="budget-name">Budget Name:</label>
+            <input type="text" name="budget" class="form-control budget-name" />
+          </div>
+          <div class="budget-form">
+            <label for="budget-amount">Budget Amount:</label>
+            <input type="text" name="budget_amount" class="form-control"/>
+          </div>
+          <div class="btn-wrapper">
+            <input class="btn btn-outline-primary" type="submit" id="books-op-save" value="Save">
+          </div>
+        </form>
+      </div>
+      <div class="budget-result">
+        <div class="budget-result-out">
+          <div class="result">
+            <h4>Name</h4>
+            <p><span class="name-out"></span></p>
+          </div>
+          <div class="result">
+            <h4>Budget</h4>
+            <p>&#8358;<span class="budget-out"></span></p>
+          </div>
+         <div class="result">
+           <h4>Expenses</h4>
+           <p>&#8358;<span class="expense-out"></span></p>
+         </div>
+          <div class="result">
+            <h4>Balance</h4>
+            <p>&#8358;<span class="balance-out"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="expenses-container">
+      <div class="expenses">
+        <form class="expenses-form-group" class="hidden">
+            <div class="expense-error"></div>
+          <div class="expenses-form">
+            <label for="expenses-name">Expense Name:</label>
+            <input type="text" name="expenses" class="form-control expense-name"/>
+          </div>
+          <div class="expenses-form">
+            <label for="expenses-amount">Expense Amount:</label>
+            <input type="text" name="expenses_amount" class="form-control expense-amount" />
+          </div>
+          <div class="btn-wrapper">
+            <input class="btn btn-outline-primary" type="submit" id="books-op-save" value="Save">
+          </div>
+        </form>
+      </div>
+      <div class="expenses-result">
+      </div>
+    </div>
+    
+  </div>
+  <footer>
+    <div class="footer">
+      <p>&copy; Copyright, 2019. Budget App by Emeka Joseph</p>
+    </div>
+  </footer>
+  <script src="./js/budget.js"></script>
+</body>
+</html>
