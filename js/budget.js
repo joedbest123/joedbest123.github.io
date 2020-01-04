@@ -102,17 +102,19 @@ getExpenses(){
 }
 getBudget(){
   let budgetResult = JSON.parse(window.localStorage.getItem('Budget_id'));
-  if (budgetResult !== null){
+  if (budgetResult){
     this.budgetAmount.textContent = budgetResult.value;
     this.budgetName.textContent = budgetResult.budget;
 
+  } else {
+    this.budgetAmount.textContent = "";
   }
 }
 
 getBalance(){
   let budgetResult = JSON.parse(window.localStorage.getItem('Budget_id'));
   let expenses = JSON.parse(window.localStorage.getItem('Expenses_id'));
-  if (budgetResult !== null && expenses !== null){
+  if (budgetResult && expenses){
     let expenseTotal = expenses
     .map(expense => {
       return parseInt(expense.amount);
@@ -124,8 +126,8 @@ getBalance(){
     let balance = parseInt(budgetResult.value) - expenseTotal;
     this.budgetBalance.textContent = balance || budgetResult.value;
     this.expenseAmount.textContent = expenseTotal;
-  } else {
-    this.budgetBalance.textContent = budgetResult.value;
+  }else {
+    this.budgetBalance.textContent = "";
   }
 }
 

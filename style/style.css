@@ -758,6 +758,10 @@ footer {
   .waypoint {
     opacity: 0; }
 
+    .galmix {
+      margin: 10px;
+    }
+
   .animated.waypoint#gallery {
     opacity: 1; }
     .animated.waypoint#gallery .mix:nth-child(1) > div {
