@@ -108,7 +108,7 @@ body {
   left: 0;
   width: 100vw;
   height: 100%;
-  background: url("../img/filler.png") center center/cover; }
+  background: url("../img/filler1.jpg") center center/cover; }
 
 .button {
   padding: 10px 20px;
@@ -119,7 +119,7 @@ body {
   transition: all .5s;
   cursor: pointer; }
   .button:hover {
-    background-color: #04C2C9;
+    background-color: rgb(16, 160, 165);
     border-color: #04C2C9; }
   .button .mdi {
     vertical-align: middle; }
@@ -171,7 +171,7 @@ body {
   transform: rotateZ(-60deg); }
 
 .highlight {
-  color: #E31B6D; }
+  color:  rgb(227, 90, 27); }
 
 .header {
   font-size: 25pt;
@@ -228,7 +228,7 @@ nav {
       nav .link-wrap div:first-child {
         padding: 25px 20px 12px 20px; }
       nav .link-wrap div:hover {
-        color: #E31B6D; }
+        color:  rgb(227, 90, 27); }
   nav .mdi-menu {
     position: absolute;
     right: 5vw;
@@ -237,7 +237,7 @@ nav {
     line-height: 36pt;
     top: 0; }
   nav .active {
-    color: #E31B6D; }
+    color:  rgb(227, 90, 27); }
 .slide {
   height: 250px;
   cursor: pointer;
@@ -383,9 +383,9 @@ section {
       width: 110px;
       width: 70px; }
     section:nth-of-type(2) .bar.secondary {
-      background-color: #C51675; }
+      background-color:  rgb(227, 90, 27); }
       section:nth-of-type(2) .bar.secondary .tag {
-        background-color: #E31B6D; }
+        background-color:  rgb(227, 90, 27); }
     section:nth-of-type(2) .bar span {
       z-index: 1;
       padding: 0 15px 0 0; }
@@ -411,7 +411,7 @@ section {
       overflow: hidden;
       height: 25px;
       border-radius: 1px;
-      background: #E31B6D;
+      background:  rgb(227, 90, 27);
       transition: all .5s ease-in-out; }
       section:nth-of-type(3) .float-bar .row {
         top: 0;
@@ -442,7 +442,7 @@ section {
         bottom: 0;
         left: 0;
         position: absolute;
-        border: 2px solid #E31B6D;
+        border: 2px solid  rgb(227, 90, 27);
         width: 170px;
         margin: 0 auto;
         font-size: 13pt;
@@ -453,7 +453,7 @@ section {
         section:nth-of-type(3) #gallery .mix .waypoint {
           background: #fff; }
         section:nth-of-type(3) #gallery .mix .button:hover {
-          background: #E31B6D;
+          background:  rgb(227, 90, 27);
           color: #fff; }
         section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
           background: url("../img/thumb-1.png") center center/cover; }
@@ -603,7 +603,7 @@ footer {
   footer .mdi-chevron-double-up {
     position: absolute;
     top: -25px;
-    background: #E31B6D;
+    background:  rgb(227, 90, 27);
     font-size: 30pt;
     width: 47px;
     height: 50px;
@@ -614,7 +614,7 @@ footer {
     cursor: pointer;
     transition: background .5s; }
     footer .mdi-chevron-double-up:hover {
-      background: #fb1f79; }
+      background:  rgb(227, 90, 27); }
   footer .icon-wrap .icon {
     overflow: hidden;
     transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
@@ -632,7 +632,7 @@ footer {
     footer .icon-wrap .mdi.mdi-codepen {
       font-size: 20pt; }
   footer .icon-wrap .icon:hover {
-    background: #04C2C9;
+    background: rgb(2, 97, 100);
     box-shadow: 0 0 0 3px rgba(4, 94, 201, 0.1);
     transform: scale(0.9); }
     footer .icon-wrap .icon:hover .mdi {
@@ -643,12 +643,12 @@ footer {
     animation: toBottomFromTop 0.3s forwards; }
   footer .footnote {
     font-size: 10pt;
-    color: #8F9AA7;
+    color: rgb(228, 232, 236);
     margin-top: 35px;
     opacity: 0.6; }
     footer .footnote .highlight {
       font-family: 'Open Sans';
-      color: #E31B6D; }
+      color: rgb(227, 90, 27); }
 
 @media screen and (max-width: 400px) {
   section:nth-of-type(3) #gallery .mix .card {
@@ -799,7 +799,7 @@ footer {
     animation: popIn 1s both; }
 
   .canvas {
-    background: #252934; }
+    background: rgb(1, 49, 51); }
 
   .button {
     font-size: 16pt; }
